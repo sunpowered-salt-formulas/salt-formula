@@ -1,10 +1,5 @@
 {% from "salt/map.jinja" import salt_settings with context %}
 
-{% if not salt_settings.install_packages %}
-include:
-  - source
-{% endif %}
-
 salt-master:
 {% if salt_settings.install_packages %}
   pkg.installed:
