@@ -24,7 +24,7 @@ pygit-deps:
     - pkgs:
       - build-essential
       - python-dev
-      - libssh-dev
+      - libssh2-1-dev
       - libffi-dev
       - python-cffi
       - cmake
