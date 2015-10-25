@@ -6,7 +6,7 @@ salt:
 
   # Set this to False to not have the formula install packages (in the case you
   # install Salt via git/pip/etc.)
-  install_packages: True
+  install_packages: False
 
   # to overwrite map.jinja salt packages
   lookup:
