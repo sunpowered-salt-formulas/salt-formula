@@ -26,6 +26,7 @@ pygit-deps:
       - python-dev
       - libssh-dev
       - libffi-dev
+      - python-cffi
       - cmake
 
 dl-libgit2-src:
